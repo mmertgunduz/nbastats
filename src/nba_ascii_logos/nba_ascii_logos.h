@@ -25,10 +25,10 @@
 #ifndef NBA_ASCII_LOGOS_H
 #define NBA_ASCII_LOGOS_H
 
-// San Antonio Spurs (SAS) logo colors
-#define SAS_BLACK "\e[38;2;60;60;60m"
-#define SAS_GRAY "\e[38;2;175;175;175m"
+#include <string.h>
 
-char *get_spurs_logo();
+void add_colorful_char(char *buffer, char *char_to_add, char *color); /* Appends sthe ANSI color code string and logo ascii character to the new ascii logo. */
+
+char *get_spurs_logo(); /* Gets San Antonio Spurs (SAS) in colorful ASCII format. */
 
 #endif /* NBA_ASCII_LOGOS_H */
