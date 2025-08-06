@@ -38,7 +38,6 @@
 // New York Knicks (NYK) logo colors.
 #define NYK_BLUE   "\e[38;2;0;107;182m"   // Hex: #006BB6
 #define NYK_ORANGE "\e[38;2;245;132;38m"  // Hex: #F58426
-#
 
 /**
  * @brief Get the New York Knicks logo in ASCII format and makes it colorful.
