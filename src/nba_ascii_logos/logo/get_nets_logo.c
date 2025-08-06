@@ -16,7 +16,7 @@
  * each character from the base image and determine the appropriate color before calling this function.
  *
  * @version 0.1
- * @date 2025-08-04
+ * @date 2025-08-06
  * 
  * @copyright Copyright (c) 2025 Mehmet Mert Gunduz
  * 
