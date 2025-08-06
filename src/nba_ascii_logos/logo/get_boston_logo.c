@@ -66,8 +66,7 @@ char *get_boston_logo() {
                    ##*#\n\
                     ##*#*\n\
                      ##***\n\
-                       #*#\n\
-";
+                       #*#";
 
     /* The variable for storing and returning the new colorful logo. */
     static char colorful_logo[16000];
