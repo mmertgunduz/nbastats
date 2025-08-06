@@ -47,5 +47,6 @@ char *get_heat_logo(); /* Gets Miami Heat (MIA) in colorful ASCII format. */
 char *get_magic_logo(); /* Gets Orlando Magic (ORL) in colorful ASCII format. */
 char *get_wizards_logo(); /* Gets Washington Wizards (WAS) in colorful ASCII format. */
 char *get_nuggets_logo(); /* Gets Denver Nuggets (DEN) in colorful ASCII format. */
+char *get_timberwolves_logo(); /* Gets Minnesota Timberwolves (MIN) in colorful ASCII format. */
 
 #endif /* NBA_ASCII_LOGOS_H */

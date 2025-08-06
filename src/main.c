@@ -37,7 +37,7 @@
  * @return int Exit status of the program.
  */
 int main(int argc, char *argv[]) {
-    printf("%s", get_nuggets_logo());
+    printf("%s", get_timberwolves_logo());
 
     return 0;
 }
