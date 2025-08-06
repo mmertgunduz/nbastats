@@ -72,7 +72,7 @@ char *get_knicks_logo() {
               ---=++++**++++==---";
 
     /* The variable for storing and returning the new colorful logo. */
-    static char colorful_logo[116000];
+    static char colorful_logo[32000];
     char char_to_add[128];
 
     /* Length of the colorless logo. */
