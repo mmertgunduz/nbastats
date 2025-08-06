@@ -19,6 +19,7 @@ set(SOURCES
     src/nba_ascii_logos/helper/add_colorful_char.c
     src/nba_ascii_logos/logo/get_spurs_logo.c
     src/nba_ascii_logos/logo/get_mavericks_logo.c
+    src/nba_ascii_logos/logo/get_nets_logo.c
 )
 
 # Add executable
