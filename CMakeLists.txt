@@ -33,6 +33,7 @@ set(SOURCES
     src/nba_ascii_logos/logo/get_hornets_logo.c
     src/nba_ascii_logos/logo/get_heat_logo.c
     src/nba_ascii_logos/logo/get_magic_logo.c
+    src/nba_ascii_logos/logo/get_wizards_logo.c
 )
 
 # Add executable
