@@ -41,5 +41,6 @@ char *get_cavaliers_logo(); /* Gets Cleveland Cavaliers (CLE) in colorful ASCII 
 char *get_pistons_logo(); /* Gets Detroit Pistons (DET) in colorful ASCII format. */
 char *get_pacers_logo(); /* Gets Indiana Pacers (IND) in colorful ASCII format. */
 char *get_bucks_logo(); /* Gets Milwaukee Bucks (MIL) in colorful ASCII format. */
+char *get_hawks_logo(); /* Gets Atlanta Hawks (ATL) in colorful ASCII format. */
 
 #endif /* NBA_ASCII_LOGOS_H */
