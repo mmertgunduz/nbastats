@@ -4,7 +4,7 @@
  * @author Mehmet Mert Gunduz (mmertgunduz@protonmail.com)
  * @brief Draw the Brooklyn Nets logo and color it by using ANSI color code.
  * 
- * This function is used to construct a colored ASCII representation of Brooklyn Nets (NJN) team logo.
+ * This function is used to construct a colored ASCII representation of Brooklyn Nets (BRK) team logo.
  * It takes characters from a base (colorless) ASCII logo and inserts ANSI color codes before 
  * each character, creating a new string that visually represents the logo with color.
  * 
@@ -35,14 +35,14 @@
 
 #include "../nba_ascii_logos.h"
 
-// Brooklyn Nets (NJN) logo colors.
+// Brooklyn Nets (BRK) logo colors.
 #define BKN_BLACK "\e[38;2;60;60;60m"    // Hex: #3C3C3C
 #define BKN_WHITE "\e[38;2;255;255;255m" // Hex: #FFFFFF
 
 /**
  * @brief Get the Brooklyn Nets logo in ASCII format and makes it colorful.
  * 
- * @return char* Brooklyn Nets (NJN) logo in colored ASCII format.
+ * @return char* Brooklyn Nets (BRK) logo in colored ASCII format.
  */
 char *get_nets_logo() {
     char nets_logo[] = 
