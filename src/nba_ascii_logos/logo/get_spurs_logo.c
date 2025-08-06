@@ -2,7 +2,7 @@
  * @file get_spurs_logo.c
  * 
  * @author Mehmet Mert Gunduz (mmertgunduz@protonmail.com)
- * @brief Draw the spurs logo and color it by using ANSI color code.
+ * @brief Draw the San Antonio Spurs logo and color it by using ANSI color code.
  * 
  * This function is used to construct a colored ASCII representation of San Antonio Spurs (SAS) team logo.
  * It takes characters from a base (colorless) ASCII logo and inserts ANSI color codes before 
@@ -36,11 +36,11 @@
 #include "../nba_ascii_logos.h"
 
 // San Antonio Spurs (SAS) logo colors.
-#define SAS_BLACK "\e[38;2;60;60;60m"
-#define SAS_GRAY "\e[38;2;175;175;175m"
+#define SAS_BLACK "\e[38;2;60;60;60m"    // Hex: #3C3C3C
+#define SAS_GRAY  "\e[38;2;175;175;175m" // Hex: #AFAFAF
 
 /**
- * @brief Get the spurs logo in ASCII format and makes it colorful.
+ * @brief Get the San Antonio Spurs logo in ASCII format and makes it colorful.
  * 
  * @return char* San Antonio Spurs (SAS) logo in colored ASCII format.
  */
@@ -71,14 +71,14 @@ char *get_spurs_logo() {
          ####\n\
           ##";
 
-    // The variable for storing and returning the new colorful logo
+    /* The variable for storing and returning the new colorful logo. */
     static char colorful_logo[16000];
     char char_to_add[128];
 
-    // Length of the colorless San Antonio Spurs (SAS) logo
+    /* Length of the colorless logo. */
     int len = strlen(spurs_logo);
 
-    // Creating the colored spurs logo
+    /* Creating the colorful logo. */
     for (int i = 0; i < len; i++) {
         char c[2];
         

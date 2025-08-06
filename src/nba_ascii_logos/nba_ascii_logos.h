@@ -30,5 +30,6 @@
 void add_colorful_char(char *buffer, char *char_to_add, char *color); /* Appends sthe ANSI color code string and logo ascii character to the new ascii logo. */
 
 char *get_spurs_logo(); /* Gets San Antonio Spurs (SAS) in colorful ASCII format. */
+char *get_mavericks_logo(); /* Gets Dallas Mavericks (DAL) in colorful ASCII format. */
 
 #endif /* NBA_ASCII_LOGOS_H */

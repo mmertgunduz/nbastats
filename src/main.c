@@ -27,6 +27,8 @@
 
 #include <stdio.h>
 
+#include "nba_ascii_logos/nba_ascii_logos.h"
+
 /**
  * @brief Entry point of the program.
  * 
@@ -35,5 +37,7 @@
  * @return int Exit status of the program.
  */
 int main(int argc, char *argv[]) {
+    printf("%s", get_mavericks_logo());
+
     return 0;
 }
