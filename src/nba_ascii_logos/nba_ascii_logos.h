@@ -37,5 +37,6 @@ char *get_knicks_logo(); /* Gets New York Knicks (NYK) in colorful ASCII format.
 char *get_sixers_logo(); /* Gets Philadelphia 76ers (PHI) in colorful ASCII format. */
 char *get_raptors_logo(); /* Gets Toronto Raptors (TOR) in colorful ASCII format. */
 char *get_bulls_logo(); /* Gets Chicago Bulls (CHI) in colorful ASCII format. */
+char *get_cavaliers_logo(); /* Gets Cleveland Cavaliers (CLE) in colorful ASCII format. */
 
 #endif /* NBA_ASCII_LOGOS_H */
