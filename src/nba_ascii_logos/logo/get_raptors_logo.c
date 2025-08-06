@@ -62,7 +62,7 @@ char *get_raptors_logo() {
   ##############     #############\n\
    ############     #############\n\
      ########      #############\n\
-                  ############\n\ 
+                  ############\n\
                 ###########";
 
     /* The variable for storing and returning the new colorful logo. */
