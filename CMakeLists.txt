@@ -27,6 +27,7 @@ set(SOURCES
     src/nba_ascii_logos/logo/get_bulls_logo.c
     src/nba_ascii_logos/logo/get_cavaliers_logo.c
     src/nba_ascii_logos/logo/get_pistons_logo.c
+    src/nba_ascii_logos/logo/get_pacers_logo.c
 )
 
 # Add executable
