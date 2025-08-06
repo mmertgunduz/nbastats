@@ -31,7 +31,7 @@ void add_colorful_char(char *buffer, char *char_to_add, char *color); /* Appends
 
 char *get_spurs_logo(); /* Gets San Antonio Spurs (SAS) in colorful ASCII format. */
 char *get_mavericks_logo(); /* Gets Dallas Mavericks (DAL) in colorful ASCII format. */
-char *get_nets_logo(); /* Gets Brooklyn Nets (NJN) in colorful ASCII format. */
+char *get_nets_logo(); /* Gets Brooklyn Nets (BRK) in colorful ASCII format. */
 char *get_boston_logo(); /* Gets Boston Celtics (BOS) in colorful ASCII format. */
 char *get_knicks_logo(); /* Gets New York Knicks (NYK) in colorful ASCII format. */
 char *get_sixers_logo(); /* Gets Philadelphia 76ers (PHI) in colorful ASCII format. */
