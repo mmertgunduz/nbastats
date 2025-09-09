@@ -51,5 +51,6 @@ char *get_timberwolves_logo(); /* Gets Minnesota Timberwolves (MIN) in colorful 
 char *get_thunder_logo(); /* Gets Oklahoma City Thunder (OKC) in colorful ASCII format. */
 char *get_rockets_logo(); /* Gets Houston Rockets (HOU) in colorful ASCII format. */
 char *get_pelicans_logo(); /* Gets New Orleans Pelicans (NOP) in colorful ASCII format. */
+char *get_grizzlies_logo(); /* Gets Memphis Grizzlies (MEM) in colorful ASCII format. */
 
 #endif /* NBA_ASCII_LOGOS_H */

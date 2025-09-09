@@ -39,6 +39,7 @@ set(SOURCES
     src/nba_ascii_logos/logo/get_thunder_logo.c
     src/nba_ascii_logos/logo/get_rockets_logo.c
     src/nba_ascii_logos/logo/get_pelicans_logo.c
+    src/nba_ascii_logos/logo/get_grizzlies_logo.c
 )
 
 # Add executable
